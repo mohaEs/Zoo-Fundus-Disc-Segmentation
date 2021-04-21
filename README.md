@@ -4,7 +4,10 @@
 ## requirements
 
 ## Sources
-All rights of the each method and corresponding libraries are reserved by their authors.
+All rights and responsibilities of the each method and corresponding library is reserved by their developer.
+See the sources repositories:
+
+
 
 
 ## Citing
