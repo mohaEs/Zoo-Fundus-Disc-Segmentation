@@ -1,8 +1,8 @@
 # Zoo of Fundus Disc Segmentation Methods
 This repository provides a zoo of different methods for sementing the disc in retina Fundus images. The aim of this to make a consistent test environment for different methods. In addition, this environment would be ready to use easily. 
 
-with _index.html_, you can summarize and browse all the results in a one html table. As you can see, the results are so different by different methods. </br> ___Notice that, each method is trained on different datasets and so we can not report their performance on a new dataset as a benchmark.___
-For that reason you may need to retrain th models on your dataset. Consider their repositories for training process. 
+with _index.html_, you can summarize and browse all the results in a one html table. As you can see, none of the methods are perfect and also the results are so different by different methods. </br> ___Notice that, each method is trained on different datasets and so we can not report their performance as benchmark on a new dataset.___
+For that reason you may need to retrain the models on your dataset. Consider their repositories for training process. 
 
 <img src="./images_readme/index.html.png" alt="drawing" width="500"/>
 
@@ -22,9 +22,8 @@ finally, you can make a summerization of the results by:
 View the generated index.html file with a browser.
 
 ## Sources
-Notice that, the collected librarris folder, contains the required files to run each method in which copied from the source repositories. Therefore all rights and responsibilities of the each method and corresponding library is reserved by their own developer.
-
-See the sources repositories and make sure yo consider themselves too:
+Notice that, the collected librarris contains the required files to run each method in which copied from the source repositories. Therefore all the rights and responsibilities of the each method and corresponding library is reserved by their own developer.
+See the source repositories and make sure to consider themselves too:
 
 **DENet:** </br>
     DENet_GlaucomaScreen </br>
