@@ -1,4 +1,12 @@
 #
+
+"""
+source:
+    https://github.com/HzFu/DENet_GlaucomaScreen
+    https://doi.org/10.1109/TMI.2018.2837012
+    https://doi.org/10.1109/TMI.2018.2791488
+"""
+
 import numpy as np
 import scipy
 import scipy.io as sio
