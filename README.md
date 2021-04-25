@@ -28,24 +28,24 @@ See the sources repositories and make sure yo consider themselves too:
 
 **DENet:** </br>
     DENet_GlaucomaScreen </br>
-    https://github.com/HzFu/DENet_GlaucomaScreen
-    https://doi.org/10.1109/TMI.2018.2837012
-    https://doi.org/10.1109/TMI.2018.2791488
+    https://github.com/HzFu/DENet_GlaucomaScreen </br>
+    https://doi.org/10.1109/TMI.2018.2837012 </br>
+    https://doi.org/10.1109/TMI.2018.2791488 </br>
 
 **MNet:** </br>
     mnet_deep_cdr    </br>
-    https://github.com/HzFu/MNet_DeepCDR
-    https://doi.org/10.1109/TMI.2018.2791488
+    https://github.com/HzFu/MNet_DeepCDR </br>
+    https://doi.org/10.1109/TMI.2018.2791488 </br>
 
 **AttnUnet:** </br>
     Optic-Disc-Unet</br>
-    https://github.com/DeepTrial/Optic-Disc-Unet
-    https://arxiv.org/pdf/1804.03999v3.pdf
+    https://github.com/DeepTrial/Optic-Disc-Unet </br>
+    https://arxiv.org/pdf/1804.03999v3.pdf </br>
 
 **Adaptive Threshold:** </br>
     Cup-and-disc-segmentation-for-glaucoma-detection-CDR-Calculation- </br>
-    https://github.com/NupurBhaisare/Cup-and-disc-segmentation-for-glaucoma-detection-CDR-Calculation-
-    https://doi.org/10.1109/SPIN.2015.7095384 
+    https://github.com/NupurBhaisare/Cup-and-disc-segmentation-for-glaucoma-detection-CDR-Calculation- </br>
+    https://doi.org/10.1109/SPIN.2015.7095384  </br>
 
 ## Citing
 
