@@ -4,7 +4,7 @@ This repository provides a zoo of different methods for sementing the disc in re
 with _index.html_, you can summarize and browse all the results in a one html table. As you can see, the results are so different by different methods. </br> Notice that, each method is trained on different datasets and so we can not report their performance on a new dataset as a benchmark.
 For that reason you may need to retrain th models on your dataset. Consider their repositories for training process. 
 
-<img src="./images_readme/index.html.png" alt="drawing" width="300"/>
+<img src="./images_readme/index.html.png" alt="drawing" width="500"/>
 
 ## requirements
 The codes are modified to be used easily with CPUs too and you don't need to have GPU. </br>
