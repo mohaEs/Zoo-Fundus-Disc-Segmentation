@@ -1,7 +1,7 @@
 # Zoo of Fundus Disc Segmentation Methods
 This repository provides a zoo of different methods for sementing the disc in retina Fundus images. The aim of this to make a consistent test environment for different methods. In addition, this environment would be ready to use easily. 
 
-[index.html](https://htmlpreview.github.io/?https://github.com/mohaEs/Zoo-Fundus-Disc-Segmentation/blob/main/index.html) shows the results on a short test set. As you can see, the results are so different by different methods. </br> Notice that, each method is trained on different datasets and so we can not report their performance on a new dataset as a benchmark.
+[index.html](https://htmlpreview.github.io/?https://github.com/mohaEs/Zoo-Fundus-Disc-Segmentation/blob/main/index_4_GitHub.html) shows the results on a short test set. As you can see, the results are so different by different methods. </br> Notice that, each method is trained on different datasets and so we can not report their performance on a new dataset as a benchmark.
 For that, reason you may need to retrain them on your dataset. Consider their repositories for training process. 
 
 ## requirements
