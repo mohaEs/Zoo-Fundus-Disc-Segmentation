@@ -1,9 +1,4 @@
 
-"""
-Copyright (c) 2018. All rights reserved.
-Created by Resnick Xing on 2018/5/11
-"""
-
 from perception.infers.segmention_infer import SegmentionInfer
 from perception.metric.segmention_metric import *
 from configs.utils.config_utils import process_config
