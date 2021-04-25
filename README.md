@@ -7,7 +7,7 @@ For that reason you may need to retrain th models on your dataset. Consider thei
 <img src="./images_readme/index.html.png" alt="drawing" width="500"/>
 
 ## requirements
-The codes are modified to be used easily with ___CPU___s too and you don't need to have GPU. </br>
+The codes are modified to be used easily with __CPUs__ too and you don't need to have GPU. </br>
 You just need to install the requirements, with conda or pip, either you prefer. </br>
 Use ___requirements.txt___ or ___requirements_conda.txt___ respectively.
 
@@ -19,7 +19,7 @@ for each method, there is a main.py file and you can use them with appropriate a
 finally, you can make a summerization of the results by:
 > python main_html.py 
 
-View the generated index.html file in a browser.
+View the generated index.html file with a browser.
 
 ## Sources
 Notice that, the collected librarris folder, contains the required files to run each method in which copied from the source repositories. Therefore all rights and responsibilities of the each method and corresponding library is reserved by their own developer.
