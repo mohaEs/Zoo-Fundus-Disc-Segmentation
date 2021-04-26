@@ -7,8 +7,8 @@ For that reason you may need to retrain the models on your dataset. Consider the
 <img src="./images_readme/index.html.png" alt="drawing" width="600"/>
 
 ## requirements
-The codes are modified to be used easily with __CPUs__ too and you don't need to have GPU. </br>
-You just need to install the requirements, with conda or pip, either you prefer. </br>
+The codes are modified to be usable easily with __CPUs__ too and so you don't need to have any GPU. </br>
+You just need to install the requirements, with conda or pip, either one you prefer. </br>
 Use ___requirements.txt___ or ___requirements_conda.txt___ respectively.
 
 ## Usage
