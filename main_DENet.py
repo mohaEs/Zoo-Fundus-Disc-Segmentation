@@ -81,5 +81,5 @@ for root, dirs, files in os.walk(data_img_path):
         run_end=time()
         print('=> Processed by: {}, running time: {:.2f}'.format(
          Method, run_end - run_start    ))
-        skimage.io.imsave(os.path.join(data_save_path,filename),disc_map)
+        skimage.io.imsave(os.path.join(data_save_path,filename[:-3]+'png'),disc_map, check_contrast=False)
 

@@ -48,7 +48,7 @@ for root, dirs, files in os.walk(imgespath):
         run_end=time()
         print('=> Processed by: {}, running time: {:.2f}'.format(
          Method, run_end - run_start    ))
-        io.imsave(os.path.join(savepath,filename),DiskMask_1, check_contrast=False)
+        io.imsave(os.path.join(savepath,filename[:-3]+'png'),DiskMask_1, check_contrast=False)
                 
         
         

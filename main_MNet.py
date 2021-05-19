@@ -57,5 +57,5 @@ for root, dirs, files in os.walk(imgespath):
          Method, run_end - run_start   ))
         if scale>1:
             Mask_2 = rescale(Mask_2, 1/scale, anti_aliasing=False)  
-        io.imsave(os.path.join(savepath,filename),Mask_2, check_contrast=False)
+        io.imsave(os.path.join(savepath,filename[:-3]+'png'),Mask_2, check_contrast=False)
         
