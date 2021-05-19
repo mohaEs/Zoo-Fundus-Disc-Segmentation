@@ -18,10 +18,10 @@ for root, dirs, files in os.walk(path_images):
         # print('===> filename', filename)
         t.rows.append([filename,
         str("<img src=" + os.path.join(path_images,filename) +" width=256 height=256 />"),
-        "<img src=" + os.path.join(path_res_DENet,filename) +" width=256 height=256 />",
-        "<img src=" + os.path.join(path_res_MNet,filename) +" width=256 height=256 />",
+        "<img src=" + os.path.join(path_res_DENet,filename[:-3]+'png') +" width=256 height=256 />",
+        "<img src=" + os.path.join(path_res_MNet,filename[:-3]+'png') +" width=256 height=256 />",
         "<img src=" + os.path.join(path_res_AttnNet,filename) +" width=256 height=256 />",
-        "<img src=" + os.path.join(path_res_AdaTh,filename) +" width=256 height=256 />"
+        "<img src=" + os.path.join(path_res_AdaTh,filename[:-3]+'png') +" width=256 height=256 />"
         ])
 
 htmlcode = str(t)
