@@ -60,10 +60,10 @@ for root, dirs, files in os.walk(data_img_path):
         org_img = np.asarray(image.load_img(os.path.join(data_img_path, filename)))
         run_start=time()
         img_scale = 2048.0 / org_img.shape[0] 
-        org_img = scipy.misc.imresize(org_img, (2048, int(org_img.shape[1]*img_scale), 3))
+        temp_img = scipy.misc.imresize(org_img, (2048, int(org_img.shape[1]*img_scale), 3))
 
         # disc segmentation
-        temp_img = scipy.misc.imresize(org_img, (Img_Seg_size, Img_Seg_size, 3))
+        temp_img = scipy.misc.imresize(temp_img, (Img_Seg_size, Img_Seg_size, 3))
         temp_img = np.reshape(temp_img, (1,) + temp_img.shape)
         [prob_6, prob_7, prob_8, prob_9, prob_10] = seg_model.predict([temp_img])    
         disc_map = np.reshape(prob_10, (Img_Seg_size, Img_Seg_size))
