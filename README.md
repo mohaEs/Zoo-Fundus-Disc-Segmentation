@@ -52,3 +52,5 @@ See the source repositories and make sure to consider themselves too:
 
 make sure, to cite the proper method with the provided doi above. Also, for citing this repository you can use following reference:
 
+## 
+The _main_DENet_ONH.py_ is not for the zoo and you don't need it. It is a cusotmized version for our own project. 
