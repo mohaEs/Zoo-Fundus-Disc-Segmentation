@@ -10,9 +10,10 @@ For that reason you may need to retrain the models on your dataset. Consider the
 The codes are modified to be usable easily with __CPUs__ too and so you don't need to have any GPU. </br>
 You just need to install the requirements, with conda or pip, either one you prefer. </br>
 Use ___requirements.txt___ or ___requirements_conda.txt___ respectively. </br> 
-If using the pip version, you need to install _OpenCV_ seperately. </br> 
 __Notice:__ make sure the python version is 3.5 
-__Notice:__ conda install -c conda-forge opencv==3.4.3 
+__Notice:__ If using the pip version, you need to install _OpenCV_ seperately __first__. </br> 
+> conda install opencv==3.4.2 
+> pip install -r requirements.txt 
 
 ## Usage
 for each method, there is a main.py file and you can use them with appropriate arguments (path of input images and results). for example:
