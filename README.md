@@ -12,6 +12,7 @@ You just need to install the requirements, with conda or pip, either one you pre
 Use ___requirements.txt___ or ___requirements_conda.txt___ respectively. </br> 
 If using the pip version, you need to install _OpenCV_ seperately. </br> 
 __Notice:__ make sure the python version is 3.5 
+__Notice:__ conda install -c conda-forge opencv==3.4.3 
 
 ## Usage
 for each method, there is a main.py file and you can use them with appropriate arguments (path of input images and results). for example:
