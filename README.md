@@ -12,7 +12,7 @@ You just need to install the requirements, with conda or pip, either one you pre
 Use ___requirements.txt___ or ___requirements_conda.txt___ respectively. </br> 
 __Notice:__ make sure the python version is 3.5 
 __Notice:__ If using the pip version, you need to install _OpenCV_ seperately __first__. </br> 
-> conda install opencv==3.4.2 
+> conda install opencv==3.4.2 </br> 
 > pip install -r requirements.txt 
 
 ## Usage
